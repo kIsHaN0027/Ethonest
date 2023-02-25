@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import SignupPage from '../components/signup_page'
+import Head from "next/head";
+import SignupPage from "../components/signup_page";
+import Layout from "../components/Layout/Layout";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <SignupPage/>
+        <Layout />
       </main>
     </>
   );
